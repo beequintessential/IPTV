@@ -1,0 +1,14 @@
+[pack]
+	buildbitmaps = false
+[core]
+	symlinks = false
+	repositoryformatversion = 0
+	filemode = false
+	logallrefupdates = true
+	bare = false
+[user]
+	name = Ai Creatives
+	email = Ai Creatives@DESKTOP-CFEJUU9
+[remote "origin"]
+	url = https://beequintessential%40gmail.com@github.com/sq-tech/iptv_website.git
+	fetch = +refs/heads/*:refs/remotes/origin/*

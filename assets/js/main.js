@@ -131,10 +131,10 @@ jQuery(document).ready(function( $ ) {
 
   // Testimonials carousel (uses the Owl Carousel library)
   $(".testimonials-carousel").owlCarousel({
-    navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true
+    autoplay: true,
+    dots: true,
+    loop: true,
+    responsive: { 0: { items: 1 }, 768: { items: 2 }, 900: { items: 3 } }
   });
 
   // Clients carousel (uses the Owl Carousel library)
